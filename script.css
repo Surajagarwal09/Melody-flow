@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+     background-color: beige;
+      font-family: 'Archivo Narrow';      
+    }
+  .centered {
+      text-align: center;
+      color: darkgreen;
+      font-family: 'Alkatra';
+    }
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  
+ nav {
+    background-color: lightgreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Alkatra', 'Archivo Narrow';
+    position: fixed;
+    width: 100%;
+}
+
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 52px;
+    background-color: lightgreen;
+    align-items: center;
+  }
+  
+  nav ul li {
+    padding: 0 14px;
+    font-weight: bold;
+  }
+  nav ul li button{
+    border: none;
+    outline: none;
+    padding: 10px 13px;
+    border-radius: 25px;
+    background-color: darkcyan;
+    color:beige;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  nav ul li button:active{
+    transform: scale(0.96);
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center
+  }
+  
+  .brand {
+    margin-left: 80vh;
+    font-size: 4vh;
+    color:whitesmoke;
+  }
+  .centered{
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  .wrapper{
+    margin: 40px auto;
+    width: 98%;
+    
+  }
+  .wrapper img{
+    width: 500px;
+    height: 330px;
+    border-radius: 5%;
+    border: 3px solid black;
+    float: left;
+    margin-right: 10px;
+  }
+  .text-box h2{
+    color: peru;
+    font-size:40px;
+    font-smooth: 5px;
+    margin-bottom: 60px;
+
+   }
+  .text-box pre{
+   font-size: 30px;
+   color: peru;
+  }
+  .wrapper1{
+    margin: 100px auto;
+    width: 98%;
+  }
+  .wrapper1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px solid black;
+    float: left;
+    margin-right: 10px;
+  }
+  .text-box1 h2{
+    margin-bottom: 60px;
+    font-size:40px;
+    color: peru;
+
+   }
+  .text-box1 pre{
+   font-size: 30px;
+   color: peru;
+  }
+  .wrapper2{
+    margin: 100px auto;
+    width: 98%;
+  }
+  .wrapper2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px solid black;
+    float: left;
+    margin-right: 10px;
+  }
+  .text-box2 h2{
+    margin-bottom: 60px;
+    font-size:40px;
+    color: peru;
+
+   }
+  .text-box2 pre{
+   font-size: 30px;
+   color: peru;
+  }
+  .wrapper3{
+    margin: 100px auto;
+    width: 98%;
+  }
+  .wrapper3 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px black;
+    float: left;
+    margin-right: 10px;
+  }
+  .text-box3 h2{
+    font-size:40px;
+    margin-bottom: 25px;
+    color: peru;
+   }
+  .text-box3 pre{
+   font-size: 30px;
+   color: peru;
+  }
+  .text-box {
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 5px; 
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .text-box1 {
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 5px; 
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .text-box2 {
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 5px; 
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .text-box3 {
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 5px; 
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .text-box p button{
+  margin-left: 270px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color:beige;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  .text-box p button:active{
+    transform: scale(0.96);
+  }
+  .text-box1 p button{
+    margin-left: 290px;
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: darkcyan;
+      color:beige; 
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+    .text-box1 p button:active{
+      transform: scale(0.96);
+    }
+    .text-box2 p button{
+      margin-left: 340px;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: darkcyan;
+        color:beige;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+      .text-box2 p button:active{
+        transform: scale(0.96);
+      }
+      .text-box3 p button{
+        margin-left: 370px;
+          border: none;
+          outline: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          background-color: darkcyan;
+          color:beige;
+          cursor: pointer;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s ease;
+        }
+        .text-box3 p button:active{
+          transform: scale(0.96);
+        }

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  background-color: lavender;
+  font-family: 'Alkatra';
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  
+ nav {
+    background-color: lightgreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Alkatra', 'Archivo Narrow';
+}
+.nav{
+  position: fixed;
+  width: 100%;
+}
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 52px;
+    background-color: lightgreen;
+    align-items: center;
+  }
+  
+  nav ul li {
+    padding: 0 14px;
+    font-weight: bold;
+  }
+  nav ul li button{
+    border: none;
+    outline: none;
+    padding: 10px 13px;
+    border-radius: 25px;
+    background-color: darkcyan;
+    color:beige;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  nav ul li button:active{
+    transform: scale(0.96);
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center
+  }
+  .brand {
+    margin-left: 80vh;
+    font-size: 4vh;
+    color:whitesmoke;
+  }
+  .wrapper{
+    margin: 10px auto;
+    width: 98%;
+  }
+  .wrapper img{
+    width: 350px;
+    height: 330px;
+    border-radius: 5%;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 8px 8px 8px ;
+  }
+  .centered {
+    text-align: center;
+    font-family: 'Alkatra';
+    margin: 1px auto;
+    font-size:60px;
+    color: whitesmoke;
+  }
+   .wrapper  pre{
+   font-size: 25px;
+   font-family:'Archivo Narrow';
+   color: whitesmoke;
+  }
+  .wrapper hr{
+    border: 3px solid beige;
+  }
+  .head h1{
+    margin-left: 680px;
+    font-family: 'Alkatra';
+    font-size:80px;
+    color: whitesmoke;
+  }
+  .head button{
+    border: none;
+    outline: none;
+    padding: 10px 13px;
+    border-radius: 25px;
+    background-color: darkcyan;
+    color:beige;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .head button:active{
+    transform: scale(0.96);
+  }
+  .lyrics{ 
+    min-height: 72vh;
+    color: whitesmoke;
+    font-family:'Archivo Narrow';
+    display: flex;
+    margin: 23px auto;
+    width: 50%;
+    border-radius: 12px;
+    padding: 34px;
+    background: url('images/MONEY TREES/99a11ea32f20abdae49e74dcd80aceff.jpeg');
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    }
+ 
+  .lyrics pre{
+    font-family:'Archivo Narrow';
+    font-size: 20px;
+    margin-left: 10px;
+    color: beige;
+  }
+  .songbar{
+    position: sticky;
+    bottom: 0px;
+    height: 90px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.icons{
+  position: absolute;
+  margin-bottom: 20px; 
+  margin-left: 80px;
+}
+.icons i{
+  cursor: pointer;
+}
+#previous{
+  transition: transform 0.2s ease;
+  color: white;
+}
+#previous:active{
+  transform: scale(0.96);
+}
+#pausePlay{
+  transition: transform 0.2s ease;
+}
+#pausePlay:active{
+  transform: scale(0.96);
+}
+#forward{
+  transition: transform 0.2s ease;
+  color: white;
+  font-size: 37px;
+}
+#forward:active{
+  transform: scale(0.96);
+}
+#myProgressBar{
+  width: 50vw; 
+  cursor: pointer;
+  margin-left:20px;
+  margin-top: 65px;
+}
+.songInfo{
+  position: absolute;
+  left: 5px;
+  font-family:'Archivo Narrow' ;
+  display: inherit;
+}
+#SongName{
+  position: absolute;
+  margin-top: 52px; 
+  margin-left: 20px;
+  font-size: 28px;
+  font-family:'Archivo Narrow' ;
+  font-weight: bolder;
+}
+#currentTime{
+  margin-top: 60px;
+  margin-left:350px ;
+  font-size: 25px;
+  font-family: 'Archivo Narrow';
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+#timeDisplay{
+  margin-top: 60px;
+  margin-left: 10px ;
+  font-size: 25px;
+  font-family: 'Archivo Narrow';
+  font-weight: bold;
+  padding-left: 0px;
+}
+.next{
+  position: absolute;
+  margin-bottom:15px; 
+  margin-left: 1248px;
+  font-size: 25px;
+  font-family:'Archivo Narrow' ;
+  font-weight: bolder;
+} 

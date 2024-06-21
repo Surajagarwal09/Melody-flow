@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+.about{
+    background-color: lavender;
+    font-family: 'Alkatra';
+  }
+  .centered {
+    text-align: center;
+  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+    background-color: lightgreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Alkatra', 'Archivo Narrow';
+}
+
+.nav{
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 52px;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 14px;
+  font-weight: bold;
+}
+nav ul li button{
+  border: none;
+  outline: none;
+  padding: 10px 13px;
+  border-radius: 25px;
+  background-color: darkcyan;
+  color: lavender;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+nav ul li button:active{
+  transform: scale(0.96);
+}
+
+.brand {
+  display: flex;
+  align-items: center
+}
+
+.brand {
+  margin-left: 80vh;
+  font-size: 4vh;
+  color:whitesmoke;
+}
+.centered{
+  font-size: 50px
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
+.textbox{
+    text-align: center;    
+}
+.textbox1 h1{
+  font-size:  45px;
+  text-align: left;
+  padding-left: 30px;
+}
+.textbox2 h2{
+  font-size: 26px;
+  text-align: left;
+  padding-left: 30px;
+}
+.textbox3 h3{
+  font-size: 22px;
+  text-align: left;
+  padding-left: 96px;
+}
+.textbox4 h3{
+  font-size: 22px;
+  text-align: left;
+  padding-left: 96px;
+}
+.textbox5 h3{
+  font-size: 22px;
+  text-align: left;
+  padding-left: 96px;
+}
+.textbox1 pre{
+  font-size: 25px;
+  font-family:'Archivo Narrow';
+  text-align: left;
+  padding-left: 200px;
+}
+.textbox2 pre{
+  font-size: 25px;
+  font-family:'Archivo Narrow';
+  text-align: left;
+  padding-left: 200px;
+}
+.textbox3 pre{
+  font-size: 25px;
+  font-family:'Archivo Narrow';
+  text-align: left;
+  padding-left: 200px;
+}
+.textbox4 pre{
+  font-size: 25px;
+  font-family:'Archivo Narrow';
+  text-align: left;
+  padding-left: 200px;
+}
+.textbox5 pre{
+  font-size: 25px;
+  font-family:'Archivo Narrow';
+  text-align: left;
+  padding-left: 200px;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.contact{
+  background-color: lightgreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Alkatra', 'Archivo Narrow';
+}
+
+.contact{
+  display: flex;
+  list-style-type: none;
+  height: 52px;
+  background-color: lightgreen;
+  align-items: center;
+}
+
+.contact{
+  padding: 0 14px;
+  font-weight: bold;
+}
+.contact button{
+  border: none;
+  outline: none;
+  padding: 10px 13px;
+  border-radius: 25px;
+  background-color: darkcyan;
+  color: lavender;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.contact button:active{
+  transform: scale(0.96);
+}
+.contact p{
+  margin-left: 38%;
+}
